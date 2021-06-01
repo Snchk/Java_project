@@ -1,0 +1,45 @@
+.login-container {
+    margin-top: 20px;
+}
+
+.login-email,
+.login-password {
+    margin-bottom: 10px;
+    width: 280px;
+    padding: 2px 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.login-password {
+    margin-bottom: 4px;
+}
+
+.login-email:focus,
+.login-password:focus {
+    outline: none;
+}
+
+.login-btn {
+    padding: 5px 50px;
+    border-radius: 20px;
+    background: #9DDE1B;
+    border: 1px solid black;
+    margin: 0 10px;
+    margin-bottom: 10px;
+}
+
+.login-btn:hover {
+    background: #1BDE20;
+    transition: 0.3s;
+}
+
+.login-error-container {
+	height: 20px;
+	margin-bottom: 7px;
+}
+
+.login-error-message {
+	margin: 0;
+	color: red;
+}

@@ -1,0 +1,18 @@
+.back-button {
+    padding: 5px 40px;
+    border-radius: 20px;
+    background: #9DDE1B;
+    border: 1px solid black;
+    color: white;
+    transition: 0.3s;
+    float: left;
+}
+
+.back-button:hover {
+    background: #1BDE20;
+    transition: 0.3s;
+}
+
+.back-button:focus {
+    outline: none;
+}

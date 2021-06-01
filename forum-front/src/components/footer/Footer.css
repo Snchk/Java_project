@@ -1,0 +1,22 @@
+.footer {
+    margin-top: 50px;
+    background: linear-gradient(#bdc3c7, #2c3e50);
+    padding: 30px 0;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-container {
+    margin: 0 auto;
+}
+
+.footer .footer-container .nav a {
+    width: 100%;
+    color: white;
+    transition: 0.3s;
+}
+
+.footer .footer-container .nav a:hover {
+    color: gray;
+    transition: 0.3s;
+}

@@ -1,0 +1,62 @@
+.topic-container {
+	margin-top: 30px;
+}
+
+.topic-label {
+	margin-left: -120px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.topic-exact-discussion {
+	background-color: #6af52a;
+	padding: 25px;
+	font-size: 16px;
+	border-radius: 30px;
+	transition: 0.5s;
+    margin-bottom: 20px;
+}
+
+.topic-exact-discussion:hover {
+	background-color: #6af52aab;
+	transition: 0.5s;
+}
+
+.topic-exact-discussion-title {
+	font-size: 22px;
+	font-weight: 500;
+	margin: 0 50px;
+}
+.topic-exact-discussion > a {
+	color: rgb(58, 58, 58);
+	transition: 0.3s;
+}
+.topic-exact-discussion > a:hover {
+	text-decoration: none;
+	color: black;
+	transition: 0.3s;
+}
+
+.topic-exact-discussion-date-author {
+	margin: 20px 0;
+	padding-bottom: 20px;
+}
+
+.topic-exact-discussion-author {
+	width: 50%;
+	float: left;
+}
+
+.topic-exact-discussion-date {
+	width: 50%;
+	float: right;
+}
+
+.topic-exact-discussion-text-demo {
+	line-height: 1.4rem;
+	padding: 5px 50px;
+}
+
+.topic-discussions-label {
+	margin-bottom: 20px;
+}

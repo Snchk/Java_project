@@ -1,0 +1,110 @@
+.discussion-container {
+	margin: 25px auto;
+}
+
+.discussion-topic-label > a {
+	color: black;
+}
+
+.discussion-sabe-btn {
+	padding: 5px 0;
+	border-radius: 20px;
+	background: #9dde1b;
+	border: 1px solid black;
+	color: white;
+	transition: 0.3s;
+	float: right;
+	width: 120px;
+}
+
+.discussion-sabe-btn:hover {
+	background: #1bde20;
+	transition: 0.3s;
+}
+
+.discussion-sabe-btn:focus {
+	outline: none;
+}
+
+.discussion-manage-dropdown {
+	background: black;
+	position: absolute;
+}
+
+.discussion-manage-dropdown > a {
+	color: white;
+}
+
+.discussion-data-container {
+	padding: 50px;
+}
+
+.discussion-text {
+	padding: 10px 30px;
+	margin-top: 20px;
+}
+
+.create-discussion-container {
+	margin-top: 20px;
+}
+
+.create-discussion-label {
+	margin-left: -120px;
+	width: 100%;
+}
+
+.create-discussion-topic {
+	padding: 2px 10px;
+	width: 280px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+.create-discussion-topic:focus,
+.create-discussion-title:focus {
+	outline: none;
+}
+
+.create-discussion-title {
+	width: 280px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	padding: 2px 10px;
+}
+
+.create-discussion-text {
+	width: 700px;
+	height: 200px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+
+.create-discussion-text:focus {
+    outline: none;
+    border: 1px solid #1BDE20;
+}
+
+.create-discussion-error-message-container {
+	height: 20px;
+	margin-bottom: 7px;
+}
+
+.create-discussion-error-message {
+	margin: 0;
+	color: red;
+}
+
+.create-discussion-btn {
+    padding: 5px 50px;
+    border-radius: 20px;
+    background: #9DDE1B;
+    border: 1px solid black;
+    margin: 0 10px;
+}
+
+.create-discussion-btn:hover {
+    background: #1BDE20;
+    transition: 0.3s;
+}

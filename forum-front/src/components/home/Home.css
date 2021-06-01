@@ -1,0 +1,74 @@
+.home-container {
+	margin-top: 35px;
+}
+
+.home-topics-container {
+    border-radius: 20px;
+    background: #1EFA62;
+}
+
+.home-exact-topic {
+    padding: 20px;
+}
+
+.home-exact-topic > a {
+	color: black;
+}
+
+.home-exact-topic > a:hover {
+	color: grey;
+    text-decoration: none;
+}
+
+.home-exact-discussion {
+	background-color: #6af52a;
+	padding: 25px;
+	font-size: 16px;
+	border-radius: 30px;
+	transition: 0.5s;
+    margin-bottom: 20px;
+}
+
+.home-exact-discussion:hover {
+	background-color: #6af52aab;
+	transition: 0.5s;
+}
+
+.home-exact-discussion-title {
+	font-size: 22px;
+	font-weight: 500;
+	margin: 0 50px;
+}
+.home-exact-discussion > a {
+	color: rgb(58, 58, 58);
+	transition: 0.3s;
+}
+.home-exact-discussion > a:hover {
+	text-decoration: none;
+	color: black;
+	transition: 0.3s;
+}
+
+.home-exact-discussion-date-author {
+	margin: 20px 0;
+	padding-bottom: 20px;
+}
+
+.home-exact-discussion-author {
+	width: 50%;
+	float: left;
+}
+
+.home-exact-discussion-date {
+	width: 50%;
+	float: right;
+}
+
+.home-exact-discussion-text-demo {
+	line-height: 1.4rem;
+	padding: 5px 50px;
+}
+
+.home-topics-label, .home-discussions-label {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,25 @@
+.profile-container {
+    margin-top: 20px;
+}
+
+.profile-email {
+    margin: 20px 0;
+}
+
+.discussion-view-container {
+    border: 1px solid black;
+    padding: 7px 0;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.discussion-view-link {
+    width: 100%;
+}
+
+.discussion-view-container > a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+
